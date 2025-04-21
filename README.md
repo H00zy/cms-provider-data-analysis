@@ -27,7 +27,6 @@ cms-provider-data-analysis/ ├── code/ │ ├── CMS_Cleaning_Assessmen
 - ✅ Specialty-based MIPS performance visualization  
 - ✅ PowerPoint slide summarizing insights  
 - ✅ GitHub repo with reproducible codebase  
-- ⏳ Next (optional): ML prediction model for facility affiliation count
 
 ---
 
