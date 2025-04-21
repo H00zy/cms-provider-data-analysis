@@ -1,0 +1,15 @@
+DAC_NationalDownloadableFile "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\DAC_NationalDownloadableFile.csv"
+
+ec_public_reporting "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\ec_public_reporting.csv"
+
+ec_score_file "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\ec_score_file.csv"
+
+Facility_Affiliation "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\Facility_Affiliation.csv"
+
+grp_public_reporting "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\grp_public_reporting.csv"
+
+grp_public_reporting_cahps "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\grp_public_reporting_cahps.csv"
+
+Utilization "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\Utilization.csv"
+
+vg_public_reporting "C:\Users\Admin\PycharmProjects\CMS provider data analysis\Data\vg_public_reporting.csv"
