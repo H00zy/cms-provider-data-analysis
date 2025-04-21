@@ -1,0 +1,3 @@
+Data/DAC_NationalDownloadableFile.csv Data/Facility_Affiliation.csv Data/Utilization.csv Data/ec_public_reporting.csv Data/ec_score_file.csv Data/grp_public_reporting.csv Data/grp_public_reporting_cahps.csv Data/vg_public_reporting.csv
+Data/cleaned/DAC_NationalDownloadableFile_cleaned.csv Data/cleaned/Facility_Affiliation_cleaned.csv Data/cleaned/Utilization_cleaned.csv Data/cleaned/ec_public_reporting_cleaned.csv Data/cleaned/ec_score_file_cleaned.csv Data/cleaned/grp_public_reporting_cahps_cleaned.csv Data/cleaned/grp_public_reporting_cleaned.csv Data/cleaned/master_df.csv Data/cleaned/vg_public_reporting_cleaned.csv
+.idea/
