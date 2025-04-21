@@ -1,0 +1,58 @@
+virtual_group_id, measure_cd, measure_title, invs_msr, attestation_value, prf_rate, patient_count, collection_type
+X00021,IA_VG_AHE_3,Promote Use of Patient-Reported Outcome Tools,N,Y,,,
+X00022,IA_VG_AHE_3,Promote Use of Patient-Reported Outcome Tools,N,Y,,,
+X00023,IA_VG_AHE_3,Promote Use of Patient-Reported Outcome Tools,N,Y,,,
+X00024,IA_VG_AHE_3,Promote Use of Patient-Reported Outcome Tools,N,Y,,,
+X00025,IA_VG_AHE_3,Promote Use of Patient-Reported Outcome Tools,N,Y,,,
+X00006,IA_VG_AHE_6,Provide Education Opportunities for New Clinicians,N,Y,,,
+X00021,IA_VG_BE_6,Regularly Assess Patient Experience of Care and Follow Up on Findings,N,Y,,,
+X00022,IA_VG_BE_6,Regularly Assess Patient Experience of Care and Follow Up on Findings,N,Y,,,
+X00023,IA_VG_BE_6,Regularly Assess Patient Experience of Care and Follow Up on Findings,N,Y,,,
+X00024,IA_VG_BE_6,Regularly Assess Patient Experience of Care and Follow Up on Findings,N,Y,,,
+X00025,IA_VG_BE_6,Regularly Assess Patient Experience of Care and Follow Up on Findings,N,Y,,,
+X00006,IA_VG_PSPA_6,Consultation of the Prescription Drug Monitoring program,N,Y,,,
+X00021,MIPS_VG_126_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy - Neurological Evaluation",N,,100,155,REG
+X00022,MIPS_VG_126_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy - Neurological Evaluation",N,,100,30,REG
+X00023,MIPS_VG_126_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy - Neurological Evaluation",N,,90,58,REG
+X00024,MIPS_VG_126_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy - Neurological Evaluation",N,,83,71,REG
+X00025,MIPS_VG_126_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy - Neurological Evaluation",N,,83,72,REG
+X00021,MIPS_VG_127_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Ulcer Prevention - Evaluation of Footwear",N,,100,150,REG
+X00022,MIPS_VG_127_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Ulcer Prevention - Evaluation of Footwear",N,,100,28,REG
+X00023,MIPS_VG_127_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Ulcer Prevention - Evaluation of Footwear",N,,100,48,REG
+X00024,MIPS_VG_127_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Ulcer Prevention - Evaluation of Footwear",N,,100,70,REG
+X00025,MIPS_VG_127_overall,"Diabetes Mellitus: Diabetic Foot and Ankle Care, Ulcer Prevention - Evaluation of Footwear",N,,100,58,REG
+X00006,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,17,15869,EHR
+X00021,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,100,1350,REG
+X00022,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,100,1434,REG
+X00023,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,100,1240,REG
+X00024,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,100,993,REG
+X00025,MIPS_VG_128_overall,Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan,N,,100,999,REG
+X00006,MIPS_VG_130_overall,Documentation of Current Medications in the Medical Record,N,,77,29198,EHR
+X00023,MIPS_VG_134_overall,Preventive Care and Screening: Screening for Depression and Follow-Up Plan,N,,100,702,REG
+X00003,MIPS_VG_145_overall,Radiology: Exposure Dose Indices or Exposure Time and Number of Images Reported for Procedures Using Fluoroscopy,N,,100,614,CLM
+X00021,MIPS_VG_155_overall,Falls: Plan of Care,N,,100,182,REG
+X00023,MIPS_VG_155_overall,Falls: Plan of Care,N,,100,86,REG
+X00024,MIPS_VG_155_overall,Falls: Plan of Care,N,,100,126,REG
+X00025,MIPS_VG_155_overall,Falls: Plan of Care,N,,100,92,REG
+X00021,MIPS_VG_182_overall,Functional Outcome Assessment,N,,99,1490,REG
+X00022,MIPS_VG_182_overall,Functional Outcome Assessment,N,,100,1498,REG
+X00023,MIPS_VG_182_overall,Functional Outcome Assessment,N,,100,1637,REG
+X00024,MIPS_VG_182_overall,Functional Outcome Assessment,N,,100,1463,REG
+X00025,MIPS_VG_182_overall,Functional Outcome Assessment,N,,99,1230,REG
+X00006,MIPS_VG_226_overall,Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention,N,,12,374,EHR
+X00006,MIPS_VG_226_screenedForUse,Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention,N,,57,7474,EHR
+X00006,MIPS_VG_226_tobacco,Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention,N,,52,7474,EHR
+X00006,MIPS_VG_238_diagnosisException,Use of High-Risk Medications in Older Adults,Y,,0,8257,EHR
+X00006,MIPS_VG_238_eCQMTotalRate,Use of High-Risk Medications in Older Adults,Y,,0,8257,EHR
+X00006,MIPS_VG_238_overall,Use of High-Risk Medications in Older Adults,Y,,0,8257,EHR
+X00006,MIPS_VG_318_overall,Falls: Screening for Future Fall Risk,N,,38,8257,EHR
+X00006,MIPS_VG_374_overall,Closing the Referral Loop: Receipt of Specialist Report,N,,5,986,EHR
+X00006,PI_VG_EP_1,e-Prescribing,N,,100,26,ATT
+X00006,PI_VG_EP_2,Query of the Prescription Drug Monitoring Program (PDMP),N,Y,,,
+X00006,PI_VG_HIE_5,Health Information Exchange (HIE) Bi-Directional Exchange,N,Y,,,
+X00006,PI_VG_ONCACB_1,ONC-ACB Surveillance Attestation,N,Y,,,
+X00006,PI_VG_ONCDIR_1,ONC Direct Review Attestation,N,Y,,,
+X00006,PI_VG_PHCDRR_1_EX_1,Immunization Registry Reporting Exclusion,N,Y,,,
+X00006,PI_VG_PHCDRR_3_EX_1,Electronic Case Reporting Exclusion,N,Y,,,
+X00006,PI_VG_PPHI_1,Security Risk Analysis,N,Y,,,
+X00006,PI_VG_PPHI_2,High Priority Practices Guide of the Safety Assurance Factors for EHR  Resilience (SAFER) Guides,N,Y,,,
