@@ -18,8 +18,6 @@ This project performs data cleaning, integration, visualization, and exploratory
 cms-provider-data-analysis/ ├── Code/ │ ├── CMS_Cleaning_Assessment.py # Initial QA audit │ ├── clean_all_files.py # Cleans and standardizes all files │ ├── integrate_cms_data.py # Joins datasets on NPI │ ├── generate_mips_graph.py # Creates MIPS score visualization │ ├── predict_facility_affiliations.py # Trains RandomForest model │ ├── analyze_feature_importance.py # Generates feature importance chart │ ├── save_model.py # Saves trained model artifacts │ └── Sample_subset_of_master_file.py # Prepares modeling subset │ ├── Data/ # Raw & cleaned data (excluded from GitHub) ├── outputs/ │ ├── mips_by_specialty.png │ ├── MIPS_By_Specialty_Summary.pptx │ └── feature_importance.png │ ├── models/ (excluded) → see release ├── requirements.txt └── README.md
 
 
----
-
 
 ---
 
@@ -53,7 +51,6 @@ Install requirements:
 
 ```bash
 pip install -r requirements.txt
-
 
 ## 🚫 Data Notice
 
