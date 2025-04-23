@@ -1,60 +1,72 @@
-# 📊 CMS Provider Data Analysis (2022)
+# 📊 CMS Provider Data Analysis & Chest X-ray Classification (2022–2025)
 
-This project performs data cleaning, integration, visualization, and exploratory modeling using CMS public data for clinicians. It was developed as part of a **pre-assessment for a Medical Data AI Manager role**, demonstrating pipeline design, data QA, modeling, and delivery of actionable insights.
+This repository includes two end-to-end projects developed for pre-assessment tasks in a **Medical Data AI Manager** role. The first task focuses on CMS clinician data processing and predictive modeling, while the second tackles medical image classification using the NIH Chest X-ray dataset.
 
 ---
 
-## 📌 Objective
+## 📌 Overview
 
+### 🧾 Task 1: CMS Provider Data Analysis (2022)
 - Audit CMS clinician-level datasets (2022) for data quality and structural integrity  
 - Assess MIPS performance distribution across specialties  
 - Build a predictive model to estimate the number of facility affiliations per clinician  
-- Prepare deliverables including visual reports, codebase, model, and documentation  
+- Deliver reproducible analysis and visual summaries  
+
+### 🩻 Task 2: Chest X-ray Image Classification (NIH Sample Dataset)
+- Develop a deep learning model for thoracic disease classification using NIH Chest X-ray samples  
+- Apply Grad-CAM to highlight areas influencing predictions  
+- Evaluate using precision, recall, F1-score, confusion matrix, and ROC curves  
+- Generate individual and batch Grad-CAM overlays for interpretability  
 
 ---
 
 ## 📁 Project Structure
 
-cms-provider-data-analysis/ ├── Code/ │ ├── CMS_Cleaning_Assessment.py # Initial QA audit │ ├── clean_all_files.py # Cleans and standardizes all files │ ├── integrate_cms_data.py # Joins datasets on NPI │ ├── generate_mips_graph.py # Creates MIPS score visualization │ ├── predict_facility_affiliations.py # Trains RandomForest model │ ├── analyze_feature_importance.py # Generates feature importance chart │ ├── save_model.py # Saves trained model artifacts │ └── Sample_subset_of_master_file.py # Prepares modeling subset │ ├── Data/ # Raw & cleaned data (excluded from GitHub) ├── outputs/ │ ├── mips_by_specialty.png │ ├── MIPS_By_Specialty_Summary.pptx │ └── feature_importance.png │ ├── models/ (excluded) → see release ├── requirements.txt └── README.md
-
-
+cms-provider-data-analysis/ ├── Code/ │ ├── CMS_Cleaning_Assessment.py │ ├── integrate_cms_data.py │ └── ... ├── ChestXray_Classification/ │ ├── code/ │ │ ├── prepare_data.py │ │ ├── train_model.py │ │ ├── evaluate_model.py │ │ ├── generate_gradcam.py │ │ ├── generate_batch_gradcam.py │ │ └── gradcam_visualization.py │ ├── data/ (sample images and processed CSVs) │ ├── outputs/ │ │ ├── gradcam_overlay.png │ │ ├── gradcam_samples/ │ │ ├── confusion_matrix.png │ │ ├── classification_report.txt │ │ └── roc_curves.png │ ├── models/ ├── outputs/ │ ├── MIPS_By_Specialty_Summary.pptx │ ├── CMS_Modeling_Report.pdf │ └── CMS_Task_1_Submission_Summary.pdf
 
 ---
 
-## 📊 Deliverables
+## ✅ Deliverables
 
-- ✅ Initial cleaning audit with summary tables and missingness stats  
-- ✅ Integrated master dataset (local-only due to file size limits)  
-- ✅ MIPS performance visualization by specialty  
-- ✅ Feature importance graph for model explanation  
-- ✅ PowerPoint summaries for both MIPS and Modeling insights  
-- ✅ Trained model & preprocessor pipeline (shared via GitHub Releases)  
-- ✅ GitHub repo for review and reproducibility  
+### Task 1: CMS Data
+- ✅ Initial cleaning audit with summary tables
+- ✅ Integrated dataset with multiple sources
+- ✅ MIPS by specialty visualization
+- ✅ Random Forest model to predict facility affiliations
+- ✅ Feature importance analysis
+- ✅ Full report and presentation summary
+- ✅ Model artifacts available via GitHub Release
+
+### Task 2: Chest X-ray Model
+- ✅ Stratified sampling, resizing, and augmentation
+- ✅ Class-rebalanced ResNet50 model with weighted loss
+- ✅ Model evaluation with classification report and ROC
+- ✅ Grad-CAM (single + batch) overlays for interpretation
+- ✅ Final report with heatmaps and performance metrics
+- ✅ Slide deck summarizing findings
 
 ---
 
 ## 📦 Model Artifacts
 
-Model files are too large for the repo and are included in this [📥 GitHub Release v1.0](https://github.com/H00zy/cms-provider-data-analysis/releases/tag/v1.0)
+Model files are available in [📥 GitHub Release v1.0](https://github.com/H00zy/cms-provider-data-analysis/releases/tag/v1.0)
 
-### 🔍 Files:
-- `facility_affiliation_model.joblib` (Random Forest model ~892MB)  
-- `preprocessor.joblib` (OneHotEncoder pipeline)  
-
-> Use directly with the provided `predict_facility_affiliations.py` or regenerate using the modeling subset.
+Includes:
+- `facility_affiliation_model.joblib` (Task 1)
+- `preprocessor.joblib`
+- `best_model.pth` (Task 2, ResNet50 trained weights)
 
 ---
 
 ## 🛠️ Installation
 
-Install requirements:
-
 ```bash
 pip install -r requirements.txt
 
+
 ## 🚫 Data Notice
 
-Due to GitHub’s file size restrictions, raw .csv files and large model binaries are excluded from version control. You can recreate all artifacts by running the scripts locally using the shared logic.
+Raw .csv files and model binaries are excluded from the GitHub repo due to file size limitations. All artifacts can be reproduced using the scripts provided.
 
 ## 👨‍💻 Author
 
