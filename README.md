@@ -1,3 +1,4 @@
+
 # 📊 CMS Provider Data Analysis & Chest X-ray Classification (2022–2025)
 
 This repository includes two end-to-end projects developed for pre-assessment tasks in a **Medical Data AI Manager** role. The first task focuses on CMS clinician data processing and predictive modeling, while the second tackles medical image classification using the NIH Chest X-ray dataset.
@@ -22,6 +23,7 @@ This repository includes two end-to-end projects developed for pre-assessment ta
 
 ## 📁 Project Structure
 
+```
 cms-provider-data-analysis/
 ├── Code/
 │   ├── CMS_Cleaning_Assessment.py
@@ -34,7 +36,9 @@ cms-provider-data-analysis/
 │       │   ├── generate_gradcam.py
 │       │   ├── generate_batch_gradcam.py
 │       │   └── gradcam_visualization.py
-│       ├── data/ (sample images and processed CSVs)
+│       ├── data/
+│       │   ├── images/
+│       │   └── processed/
 │       ├── outputs/
 │       │   ├── gradcam_overlay.png
 │       │   ├── gradcam_samples/
@@ -45,6 +49,7 @@ cms-provider-data-analysis/
 ├── MIPS_By_Specialty_Summary.pptx
 ├── CMS_Modeling_Report.pdf
 └── CMS_Task_1_Submission_Summary.pdf
+```
 
 ---
 
@@ -82,19 +87,20 @@ Includes:
 
 ## 🛠️ Installation
 
-bash
+```bash
 pip install -r requirements.txt
+```
 
+---
 
 ## 🚫 Data Notice
 
 Raw .csv files and model binaries are excluded from the GitHub repo due to file size limitations. All artifacts can be reproduced using the scripts provided.
 
+---
+
 ## 👨‍💻 Author
 
-Hazzaa Alghamdi
-Digital healthcare innovator | AI-driven decision maker | Python-powered insights
+Hazzaa Alghamdi  
+Digital healthcare innovator | AI-driven decision maker | Python-powered insights  
 🔗 github.com/H00zy
-
-
----
