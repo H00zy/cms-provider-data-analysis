@@ -22,7 +22,29 @@ This repository includes two end-to-end projects developed for pre-assessment ta
 
 ## 📁 Project Structure
 
-cms-provider-data-analysis/ ├── Code/ │ ├── CMS_Cleaning_Assessment.py │ ├── integrate_cms_data.py │ └── ... ├── ChestXray_Classification/ │ ├── code/ │ │ ├── prepare_data.py │ │ ├── train_model.py │ │ ├── evaluate_model.py │ │ ├── generate_gradcam.py │ │ ├── generate_batch_gradcam.py │ │ └── gradcam_visualization.py │ ├── data/ (sample images and processed CSVs) │ ├── outputs/ │ │ ├── gradcam_overlay.png │ │ ├── gradcam_samples/ │ │ ├── confusion_matrix.png │ │ ├── classification_report.txt │ │ └── roc_curves.png │ ├── models/ ├── outputs/ │ ├── MIPS_By_Specialty_Summary.pptx │ ├── CMS_Modeling_Report.pdf │ └── CMS_Task_1_Submission_Summary.pdf
+cms-provider-data-analysis/
+├── Code/
+│   ├── CMS_Cleaning_Assessment.py
+│   ├── generate_cms_data.py
+│   └── ChestXray_Classification/
+│       ├── code/
+│       │   ├── prepare_data.py
+│       │   ├── train_model.py
+│       │   ├── evaluate_model.py
+│       │   ├── generate_gradcam.py
+│       │   ├── generate_batch_gradcam.py
+│       │   └── gradcam_visualization.py
+│       ├── data/ (sample images and processed CSVs)
+│       ├── outputs/
+│       │   ├── gradcam_overlay.png
+│       │   ├── gradcam_samples/
+│       │   ├── confusion_matrix.png
+│       │   ├── classification_report.txt
+│       │   └── roc_curves.png
+│       └── models/
+├── MIPS_By_Specialty_Summary.pptx
+├── CMS_Modeling_Report.pdf
+└── CMS_Task_1_Submission_Summary.pdf
 
 ---
 
